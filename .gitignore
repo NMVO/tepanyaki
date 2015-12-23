@@ -8,9 +8,20 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-!/log/.keep
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
 /tmp
+
+# Ignore all coverage files
+/coverage
+
+.idea
+
+# Do not commit .env
+.env
 
 # Ignore Spring files.
 /spring/*.pid

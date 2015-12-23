@@ -1,19 +1,418 @@
 <% provide(:title, "Menu") %>
 <h1>Menu</h1>
-<nav>
-  <ul class="pagination">
-    <li class="disabled">
-      <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li>
-      <a href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Appetizers</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse out">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li>Shrimp Tempura</li>
+                <p>Light Batter Deep Fried Shrimp & Vegetables</p>
+              <li>Beef Kushi (2)</li>
+                <p>Beef Tender Skewer with Teriyai Sauce</p>
+              <li>Gyoza (4)</li>
+                <p>Japanese Dumpling with Chicken</p>
+              <li>Japanese Egg Roll (2)</li>
+              <li>Yakitori (3)</li>
+                <p>Chicken Skewer with Teriyaki Sauce</p>
+              <li>Chicken wings (6)</li>
+              <li>Seaweed Salad</li>
+              <li>Edamame</li>
+                <p>Steamed Soy Beans</p>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>Sunomono</li>
+                <p>Cucumber salad with seafood</p>
+              <li>Green Mussels</li>
+                <p>Broiled mussels with spicy sauce</p>
+              <li>Ocean Salad</li>
+                <p>Seaweed with smoked squid</p>
+              <li>Dynamite</li>
+                <p>Broiled assorted fish with spicy sauce</p>
+              <li>Mussels Shooter</li>
+                <p>Served Raw</p>
+              <li>Sushi Appetizer</li>
+                <p>3 pcs. Tuna roll, 3 pcs. Cucumber roll, Tuna, White Fish, Shrimp & Inari Nigiri</p>
+            </ul>
+          </div>
+        </div>
+        <p class="center">*We only use Margarine and Vegetable Oil*</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Sushi & Sashimi</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Sushi</h4>
+              <ul>
+                <li>Amaebi Sweet Shrimp</li>
+                <li>Anago Sea Eel</li>
+                <li>EBI shrimp</li>
+                <li>Hamachi Yellowtail</li>
+                <li>Hokkigai Surf Clam</li>
+                <li>Hotatte Scallop</li>
+                <li>Ika Squid</li>
+                <li>Ikura Salmon Roe</li>
+                <li>Kunsei Sake Smoked Salmon</li>
+                <li>Maguro Tuna</li>
+                <li>Sake Salmon</li>
+                <li>Shiro Maguro Albacore Tuna</li>
+                <li>Shiromi White Fish</li>
+                <li>Tobiko</li>
+                <li>Unagi</li>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Sashimi</h4>
+              <ul>
+                <li>Sashimi A (12 pcs. of Sashimi)</li>
+                  <p>Tuna, Salmon, White Fish & Octopus</p>
+                <li>Sashimi B (20 pcs. of Sashimi)</li>
+                  <p>Tuna, Salmon, White Fish, Yellowtail, Squid & Octopus</p>
+              </ul>
+          </div>
+        </div>
+          <p class="center">*We only use Margarine and Vegetable Oil*</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Special Rolls & Sushi Combinations</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+      <h4>Special Rolls</h4>
+        <div class="row">
+          <div class="col-md-6">  
+              <ul>
+                <li>Philadelphia Roll</li>
+                  <p>Smoked Salmon, Cream Chees, Cucumber & Avocado</p>
+                <li>Phoenix Roll</li>
+                  <p>Spicy Tuna, Avocado, Green Onion & Jalapeno</p>
+                <li>New York Roll</li>
+                  <p>Smoked Salmon, Crab Mix, Cucumber & Sprouts</p>
+                <li>Sunset Roll</li>
+                  <p>Fresh Salmon, Crab Mix, Cucumber, Sprout & Masago</p>
+                <li>Layton Snap Roll</li>
+                  <p>Spicy Tuna & Crap Mix Roll, deep-fried served w/Eel Sauce & Wasabi Sauce</p>
+                <li>Crunch Roll</li>
+                  <p>Shrimp Tempura, Cucumber & Avocado topped w/Tempura Crunch & Tobiko</p>
+                <li>Famous Roll</li>
+                  <p>Shrimp Tempura, Eel, Avocado, Crab Mix & Sprouts</p>
+                <li>Dragon Roll</li>
+                  <p>Eel, Avocado, Crab, Cucumber & Eel Sauce</p>
+                <li>Red Dragon Roll</li>
+                  <p>California Roll w/Spicy Tuna, Tobiko & Shrimp on top</p>
+                <li>Mars Roll</li>
+                  <p>Tempura Shrimp, Crab Mix & Cucumber w/Avocado, Tuna & Eel Sauce on top</p>
+                <li>Tepanyaki Roll</li>
+                  <p>Eel, Avocado, Lettuce & Crab Mix roll w/Tobiko & Eel Sauce on top</p>
+                <li>Green Tiger Roll</li>
+                  <p>Tuna, Cucumber, Crab & Tempura Crunch Roll served w/Shrimp & Avocado on top</p>
+                <li>Salt Lake Roll</li>
+                  <p>Spicy Albacore, Seaweed Salad & Cucumber Roll w/3 Shrimps on top rolled in Soy paper</p>
+                <li>Las Vegas Roll</li>
+                  <p>Salmon, Avocado, Cream Chees & Cucumber roll deep-fried with Eel Sauce on top</p>
+                <li>Fat Boy Roll</li>
+                  <p>Tuna, Eel, Avocado, Cucumber, Tempura crunch & Eel Sauce</p>
+                <li>Hell Roll</li>
+                  <p>Spicy Tuna & Avocado Roll topped w/red Tobiko & Eel Sauce</p>
+                <li>Sunshine Roll</li>
+                  <p>California Roll with Salmon & Sliced Lemon</p>
+                <li>Fire Cracker Roll</li>
+                  <p>Tuna, Cucumber, Avocado & Crunch Roll w/Spicy Crab, Spicy Mayo & Jalapeno on top</p>
+              </ul>
+          </div>
+          <div class="col-md-6">
+              <ul>
+                <li>Baja Roll</li>
+                  <p>Shrimp Tempura, Cilantro & Avocado roll w/Tuna, Lime, Pineapple, Habanero & Masago on top</p>
+                <li>Snow Roll</li>
+                  <p>Shrimp Tempura, Cream Cheese & Cucumber roll w/Crab, Spicy Mayo, Sriracha, Avocado and Eel Sauce on top</p>
+                <li>Spicy Sarah Jana Roll</li>
+                  <p>Shrimp Tempura, Crab & Cucumber roll w/Spicy Tuna, Wasabi Mayo & Eel Sauce on top</p>
+                <li>Godzilla Roll</li>
+                  <p>Deep Fried Spicy Albacore Roll with Sriracha & Green Onion on top</p>
+                <li>Devil's Slide Roll</li>
+                  <p>Cucumber, Avocado & Crab roll with Hamachi & Sriracha on top</p>
+                <li>Volcano Roll</li>
+                  <p>California Roll with Baked Scallops, Spicy Mayo, Tobiko & Eel Sauce on top</p>
+                <li>Orange Country Roll</li>
+                  <p>Crab, Cucumber, Avocado, Cream Cheese, Tempura Crunch & Spicy Mayo Roll w/Tobiko & Eel Sauce on top</p>
+                <li>American Roll</li>
+                  <p>Shrimp Tempura, Crab & Cucumber roll w/Tuna, Salmon, Avocado & Tobiko on top</p>
+                <li>Golden Roll</li>
+                  <p>Salmon, Cucumber, Crunch & Sprouts w/Spicy Mayo & Tobiko on top</p>
+                <li>Green Mile Roll</li>
+                  <p>Hamachi, Tempura Asparagus & Cucumber roll w/Tuna & Avocado on top</p>
+                <li>Playboy Roll</li>
+                  <p>Tempura Shrimp, Crab mix & Cucumber roll w/Tuna & Tobiko on top</p>
+                <li>Caterpillar Roll</li>
+                  <p>Eel & Cucumber Roll with Avocado & Tobiko on top</p>
+                <li>Utah Roll</li>
+                  <p>Tuna, Avocado, Cucumber & Tempura Crunch roll w/Scallops, Spicy Mayo Tobiko, Eel Sauce & Cilantro on top</p>
+                <li>Silver Lake Roll</li>
+                  <p>Scallops, Eel & Crab roll deep-fried served w/Wasabi Mayo & Eel Sauce on top</p>
+                <li>RedLine Roll</li>
+                  <p>Spicy Yellowtail, Shrimp, Cucumber & Lettuce Roll with Eel Sauce on top</p>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Maki/Sushi Roll</h4>
+              <ul>
+                <li>Alaska Roll</li>
+                  <p>Smoked Salmon, Avocado & Crab mix</p>
+                <li>California Roll</li>
+                  <p>Crab mix, Avocado & Cucumber</p>
+                <li>Futomaki Roll (8 pcs.)</li>
+                  <p>Omelets, Shitake Mushroom, Seasoned Gourd & Cucumbers</p>
+                <li>Kappa Roll</li>
+                  <p>Cucumbers roll</p>
+                <li>Negihama Roll</li>
+                  <p>Yellowtail & Green Onion</p>
+                <li>Oshinko Roll</li>
+                  <p>Pickled Radish</p>
+                <li>Rainbow Roll</li>
+                  <p>Assorted Fish & Sliced Avocado over California roll</p>
+                <li>Sake Maki Roll</li>
+                  <p>Salmon & Green Onion</p>
+                <li>Salmon Skin Roll</li>
+                  <p>Salmon Skin, Cucumber, Scallion</p>
+                <li>Shrimp Tempura Roll</li>
+                  <p>Shrimp Tempura, Cucumber, Avocado & Crab mix</p>
+                <li>Spicy Scallop Roll</li>
+                  <p>Spicy flavored Scallop, Cucumber, Green Onion, Tobiko & Sprout</p>
+                <li>Spicy Tuna Roll</li>
+                  <p>Spicy Tuna, Green Onion & Sprout</p>
+                <li>Spider Roll</li>
+                  <p>Deep-fried soft shell Crab, Cucumber, Sprouts, Avocado, Masago & Spicy Sauce</p>
+                <li>Tekka Roll</li>
+                  <p>Tuna roll</p>
+                <li>Unagi Maki Roll</li>
+                  <p>Eel, Cucumber and Avocado</p>
+                <li>Vegetable Roll</li>
+                  <p>Avocado, Cucumber, Shredded Carrot & Radish Sprout</p>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Combinations (Served w/soup & salad)</h4>
+              <ul>
+                <li>Nigiri A (8 pcs. Nigiri)</li>
+                  <p>Tuna, Salmon, White Fish, Shrimp, Flying Fish Eggs, Octopus, Eel & Albacore</p>
+                <li>Nigiri B (7 pcs. Nigiri w/California Roll)</li>
+                  <p>Tuna, Salmon, White Fish, Shrimp, Flying Fish Eggs, Octopus & Eel</p>
+                <li>Nigiri C (10 pcs. Nigiri w/California Roll)</li>
+                  <p>Tuna, Salmon, White Fish, Shrimp, Flying Fish Eggs, Octopus, Eel, Albacore, Squid & Yellowtail</p>
+                <li>Hand Roll Combo</li>
+                  <p>California Roll, Cucumber & Spicy Tuna Hand Roll</p>
+                <li>Roll Combo</li>
+                  <p>California Roll, Cucumber & Tuna Roll</p>
+                <li>Unagi Donburi</li>
+                  <p>Eel on Rice bed</p>
+                <li>Chirashi Sushi</li>
+                  <p>Assorted sliced Fish on Rice bed</p>
+                <li>Sashimi Dinner</li>
+                  <p>14 pcs. of sliced Tuna & Yellowtail</p>
+                <li>Sushi & Sashimi</li>
+                  <p>Tuna, Shrimp, Salmon, California Roll & 7 pcs, Tuna Sashimi</p>
+                  <p class="center">No Substitutions For Combinations</p>
+              </ul>
+          </div>
+        </div>
+          <p class="center">*We only use Margarine and Vegetable Oil*</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Dinner</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          Your TEPANYAKI dinner includes Japanese Onion Soup, Salad and Steamed Rice. Each dinner is prepared at your Tepanyaki Table in the finest Japanese tradition by our CHEFS and served with our oriental vegetables complemented by our own seasoning and exotic sauces. For your dining pleasure, your chef and waitress will take care of your every need. The gratuity will be shared by your chef and waitress. An 18% gratuity will be added to parties of six or more.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Chicken & Steak</h4>
+              <ul>
+                <li>Vegetables Dinner</li> 
+                  <p>Mushroom, Onions & Zucchini</p>
+                <li>Chicken Teriyaki</li>
+                  <p>Boneless juicy Chicken cooked with Sesame Seeds & Teriyaki Sauce</p>
+                <li>Sukiyaki Beef</li> 
+                  <p>Thinly sliced beef grilled to perfection with Sesame seeds & Teriyaki Sauce<p>
+                <li>Tepanyaki New York Strip</li>
+                  <p>Steak prepared with our own Sauce</p>
+                <li>Ribeye Steak</li>
+                  <p>Steak prepared with our own Teriyaki Sauce</p>
+                <li>Filet Mignon</li>
+                  <p>Tender with our own Sauce</p>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Seafood</h4>
+              <ul>
+                <li>Shrimp Tepanyaki</li>
+                  <p>Savory Shrimp sauteed with Margarine and Lemon</p>
+                <li>Tepanyaki Salmon</li>
+                  <p>Cooked with Teriyaki Sauce and Lemon</p>
+                <li>Teriyaki Scallops</li>
+                  <p>Deep Sea Shellfish cooked with Margarine and Lemon</p>
+                <li>Alaskan King Crab Leg</li>
+                  <p>The most popular choice for Seafood Lovers</p>
+                <li>Teriyaki Lobster Tail</li>
+                  <p>Two Lobster Tails cooked with Margarine, Teriyaki Sauce & Lemon</p>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Combinations</h4>
+              <ul>
+                <li>Chicken & Salmon</li> 
+                <li>Chicken & Shrimp</li>
+                <li>New York Steak & Chicken</li> 
+                <li>New York Steak & Shrimp</li>
+                <li>New York Steak & Salmon</li>
+                <li>Chicken & Scallops</li>
+                <li>New York Steak & Scallops</li>
+                <li>Shrimp & Scallops</li>
+                <li>Filet Mignon & Chicken</li>
+                <li>Filet Mignon & Salmon</li>
+                <li>Filet Mignon & Shrimp</li>
+                <li>Filet Mignon & Scallops</li>
+                <li>Filet Mignon & Lobster Tail</li>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Upgrade your dinner steamed rice to</h4>
+              <ul>
+                <li>Fried Rice </li>
+                <li>Fried Noodles</li>
+              </ul>
+          </div>
+        </div>
+        <p class="center">*We only use Margarine and Vegetable Oil*</p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Specials Dinner Combinations</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li>Geisha Sepcial</li>
+            <p>New Yor Steak, Shrimp & Chicken with House Fried Rice</p>
+          <li>Samurai Special</li>
+            <p>Filet Mignon, Shrimp & Salmon with House Fried Rice</p>
+          <li>Seafood Special</li>
+            <p>Salmon, Scallops & Shrimp with House Fried Rice</p>
+          <li>Seafood Deluxe</li>
+            <p>Lobster Tail, Shrimp & Scallops with House Fried Rice</p>
+          <li>Tepanyaki Deluxe</li>
+            <p>Lobster Tail, Filet Mignon & King Crab with House Fried Rice</p>
+        </ul>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>House Special (Feast For Two)</h4>
+              <ul>
+                <li>Appetizers:</li> <p>Egg Roll & Yakitori (No substitutions)</p>
+                <li>Entrees:</li> <p>Ribeye Steak, Shrimp, Salmon & House Fried Rice</p>
+                <li>Dessert:</li> <p>Ice Cream<p>
+              </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>House Deluxe (Feast For Two)</h4>
+              <ul>
+                <li>Appetizers:</li>
+                  <p>Chicken Wings & Beef Kushi (No substitutions)</p>
+                <li>Entrees:</li>
+                  <p>Filet Mignon, Teriyaki Chicken, Shrimp & House Fried Rice</p>
+                <li>Dessert:</li>
+                  <p>Ice Cream</p>
+              </ul>
+          </div>
+            <p class="center">*We only use Margarine and Vegetable Oil*</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">For Children under 10</a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+        <ul>
+          <li>Teriyaki Chicken</li>
+          <li>Sukiyaki Beef</li>
+          <li>Tepanyaki Shrimp</li>
+          <li>New York Strip</li>
+        </ul>
+      </div>
+      <p class="center">Served with Soup, Vegetables & Steamed Rice<br />
+      *We only use Margarine and Vegetable Oil*</p>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Beverages & Desserts</a>
+      </h4>
+    </div>
+    <div id="collapse7" class="panel-collapse collapse out">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-6">
+          <h4>Beverages</h4>
+            <ul>
+              <li>Soda:</li>
+                <p>Sprite, Coke, Root Beer, Dr. Pepper, Lemonade, Diet Coke, Ice Tea</p>
+              <li>Juice: (no refills)</li>
+                <p>Orange juice, Apple juice, Cranberry juice, Pinapple juice</p>
+            </ul>
+          </div>
+          <div class="col-md-6">
+          <h4>Desserts</h4>
+            <ul>
+              <li>Ice Cream</li>
+              <li>Snow Ball</li>
+              <li>Cheesecake</li>
+              <li>Tempura Ice Cream</li>
+            </ul>
+          </div>
+        </div>
+        <p class="center">*Please contact one of our location for our Wine & Beer list*</p>
+      </div>
+    </div>
+  </div>
+</div>
